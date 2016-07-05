@@ -434,7 +434,23 @@ button:hover {
 @media (max-width: 980px) { 
 p {
     line-height: normal;
-}    
+} 
+.main-nav {
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 110%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}   
 .main-content {
     min-height: 736px;
 }
