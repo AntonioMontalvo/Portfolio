@@ -404,13 +404,13 @@ button:hover {
 		FOOTER
 ******************************/
 
-.footer {
+/*.footer {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
 	background-color: #666666;
-}
+}*/
 .copyright {
 	color: #dddddd;
 	font-size: 0.7em;
@@ -427,16 +427,22 @@ button:hover {
     clear: left;
     border-top: 7px solid #4aaaa5;
 }
+#gone {
+    display: none;
+}
 
 /*************************************************************
                 MEDIA QUERIES
 ***************************************************************/
 @media (max-width: 980px) { 
+
+/******index.html******/
+
 p {
     line-height: normal;
 } 
 .main-nav {
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-name: slidein;
 }
 
@@ -458,18 +464,86 @@ p {
     margin: 30px 0px 0px 86px;
     padding: 3px 22px 20px;
 }
+
 .profile {
     max-width: 410px;
     margin: 0 0 10px 0;
 }
 .connect-about {
-    margin: 30px 0 0 22px;
+    margin: 30px 0 0 50px;
     padding: 7px 0px 21px;
 }
 .connect-headline {
     margin: 16px 35px 20px;
     padding-bottom: 15px;
 }
+
+
+/******portfolio.html******/
+h4 {
+    font-size: 24px;
+}
+.name{
+    margin-right: 280px;
+}
+.my-text-port {
+    max-width: 410px;
+    height: 2240px;
+    top: 30px;
+    margin-bottom: 60px;
+    margin-left: 83px;
+}
+.banner {
+    max-width: 100%;
+    margin: auto;
+}
+#text{
+    top: 330px;
+}
+
+#image2{
+    left: 0px;
+    top: 890px;
+}
+#text2 {
+    left: 0px;
+    top: 1212px;
+}
+#image3 {
+    left: 0;
+    top: 450px;
+}
+#text3 {
+    left: 0;
+    top: 770px;
+}
+#image4 {
+    left: 0px;
+    top: 1325px;
+}#text4{
+    left: 0px;
+    top: 1644px;
+}
+#image5 {
+    top: 1760px;
+}
+#text5 {
+    top: 2060px;
+}
+#text, #text2, #text3, #text4, #text5{
+    padding: 23px 88px;
+}
+.connect {
+    margin: 25px 0 0 0;
+    padding: 7px 0px 21px;
+}
+#gone{
+    display: inherit;
+}
+
+
+
+
 
 }
 
