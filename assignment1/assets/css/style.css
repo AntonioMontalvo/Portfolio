@@ -1,0 +1,453 @@
+/*
+COLORS
+Teal color (used for headings and backgrounds) = #4aaaa5  check
+Regular font color (used for paragraphs and all text besides the headings) = #777777 check
+Main header background color = #ffffffcheck
+Main header border color = #cccccc check
+Footer background color = #666666 check
+Main content background color = #ffffff check
+Main content border color = #dddddd check
+Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
+
+FONTS
+Heading fonts use font-family: 'Georgia', Times, Times New Roman, serif; check check
+All other fonts use font-family:; 'Arial', 'Helvetica Neue', Helvetica, sans-serif; check
+
+DIMENSIONS
+The width of the entire content area is 960px wide
+The width of the main section content is 650px wide
+The width of the sidebar is 270px
+Pro-tip. Use the Page Ruler extension to measure the size of elements
+*/
+/* =================================
+  Base Layout Style
+==================================== */
+
+body {
+	margin: auto;
+	min-width: 960px;
+    max-width: 960px;
+	background-color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+a {
+	text-decoration: none;
+	color: #777777;
+	border-right: 1px solid lightgrey;
+	padding-right: 20px;
+}
+
+a:hover {
+	color: #6633ff;
+}
+
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.5em;
+	color: #4aaaa5; /*Teal color*/
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.2em;
+	color: #4aaaa5; /*Teal color*/
+}
+h4 {
+    font-size: 11px;
+}
+
+p {
+	color: #777777;
+}
+
+/*form*/
+form {
+	max-width: 400px;
+	margin:  auto;
+	padding: 10px;
+}
+fieldset {
+    width: 100%;
+    margin-left: -9px;
+}
+
+label {
+	color: #777777;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+	background: rgba(255,255,255,0.9);
+	border: 1px solid lightgrey;
+	font-size: 18px;
+	height: auto;
+	padding: 8px;
+	width: 100%;
+	background-color: #ffffff;
+	color: #777777;
+	margin-top: 8px;
+	margin-bottom: 25px;
+}
+
+textarea { 
+	padding-bottom: 100px;
+}
+
+button {
+	padding: 10px 30px 10px 30px;
+	color: white;
+	background-color: #4eaaa4;
+	font-size: 18px;
+	width: 30%;
+	border: none;
+}
+button:hover {
+    color: lightgrey;
+    transition: all .5s;
+}
+
+/*text over image*/
+
+
+
+/******************************
+		NAVIGATION
+******************************/
+
+.main-nav {
+	border-bottom: 3px solid #cccccc;
+	background-color: #ffffff;
+	padding-bottom: 33px;
+
+}
+
+.name {
+	margin-left: 87px;
+    margin-bottom: 4px;
+    padding: 0;
+    margin-top: auto;
+	background-color: #4aaaa5; /*Teal color*/
+	font-size: 1.65em;
+    float:left;
+	border-right: none;
+	margin-right: 250px;
+    color: white;
+    padding: 27px 19px 30px 17px;
+}
+.links {
+	display: inline-block;
+	    margin-top: 34px;
+	    margin-left: 6px;
+}
+
+
+.side a {
+	border-right: none;
+}
+
+.nav a {
+	transition: all .5s;
+}
+.nav a:hover {
+	color: lightgrey;
+}
+
+/******************************
+		MAIN CONTENT
+******************************/
+.main-content{
+	display: block;
+	min-height: 500px;
+	background-image: url('../images/cork-wallet.png'); 
+
+  }
+  .main-content-port{
+	display: block;
+	min-height: 661px;
+	background-image: url('../images/cork-wallet.png'); 
+	border-bottom: 2px solid lightgrey;
+	position: relative;
+  }
+
+  .main-content-contact{
+	display: block;
+	min-height: 611px;
+	background-image: url('../images/cork-wallet.png'); 
+    position: relative;
+  }
+ .my-text {
+ 	float: left;
+    margin: 15px 0px 0px 70px;
+    padding: 3px 24px 20px;
+    max-width: 410px;
+    background: #fff;
+    border: 3px solid #dddddd;
+    border-radius: 4px;
+}
+.my-text-contact {
+ 	float: left;
+    margin: 15px 0px 30px 70px;
+    padding: 2px 38px 19px 19px;
+    max-width: 410px;
+    background: #fff;
+    border: 3px solid #dddddd;
+    border-radius: 4px;
+
+}
+.my-text-port {
+    margin: 0px 0px 0px 70px;
+    padding: 3px 24px 20px;
+    max-width: 410px;
+    height: 617px;
+    background: #fff;
+    border: 3px solid #dddddd;
+    border-radius: 4px;
+    border-bottom: none;
+    position: relative;
+    top: 20px;
+}
+.profile{
+	float: left;
+    margin: 3px 27px 5px 0px;
+    max-width: 47%;
+}
+.second{
+	margin-top: 30px;
+}
+.text-headline {
+    border-bottom: solid lightgrey 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.connect {
+	margin: 17px 0 0 -25px;
+    padding: 8px 20px 33px;
+	max-width: 250px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid lightgrey;
+	border-radius: 4px;
+	display: inline-block;
+	position: absolute;
+    top: 5px;
+    left: 592px;
+}
+.connect-port {
+    margin: 17px 0 0 -25px;
+    padding: 8px 20px 33px;
+    max-width: 250px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 589px;
+}
+.connect-about {
+    float: left;
+    margin: 18px 0 0 30px;
+    padding: 7px 20px 21px;
+    max-width: 250px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+.connect a {
+	border-right: none;
+	padding-right: 0;
+}
+.connect-about a {
+    border-right: none;
+    padding-right: 0;
+}
+.connect-port a {
+    border-right: none;
+    padding-right: 0;
+}
+
+
+
+
+.logo {
+	max-width: 20.5%;
+}
+
+#big{
+    width: 58px;
+    height: 52px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: -1px;
+}
+.connect-headline{
+	border-bottom: solid lightgrey 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+/*Pictures*/
+.banner {
+	/*float: left;*/
+    max-width: 44%;
+    position: relative;
+}
+#image {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+#text {
+  	z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left: 0px;
+    top: 132px;
+    background-color: teal;
+    padding: 16px 40px;
+    width: 57%;
+    text-align: center;
+}
+#image2 {
+    position: absolute;
+    left: 221px;
+    top: 0;
+    width: 100%;
+}
+#text2 {
+  	z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left: 220px;
+    top: 132px;
+    background-color: teal;
+    padding: 16px 40px;
+    width: 57%;
+    text-align: center;
+}
+#image3 {
+    position: absolute;
+    left: 0px;
+    top: 188px;
+    width: 100%;
+}
+#text3 {
+  	z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left: 0px;
+    top: 316px;
+    background-color: teal;
+    padding: 16px 40px;
+    width: 57%;
+    text-align: center;
+}
+#image4 {
+    position: absolute;
+    left: 221px;
+    top: 185px;
+    width: 100%;
+}
+#text4 {
+  	z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+	left: 221px;
+    top: 316px;
+    background-color: teal;
+    padding: 16px 40px;
+    width: 57%;
+    text-align: center;
+}
+#image5 {
+    position: absolute;
+    left: 0px;
+    top: 383px;
+    width: 100%;
+}
+#text5 {
+  	z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+	left: 0px;
+    top: 503px;
+    background-color: teal;
+    padding: 16px 40px;
+    width: 57%;
+    text-align: center;
+}
+
+
+
+
+
+/******************************
+		FOOTER
+******************************/
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #666666;
+}
+.copyright {
+	color: #dddddd;
+	font-size: 0.7em;
+	text-align: center;
+    background-color: #666666;
+    padding: 34px 8px 40px 0px;
+}
+.ribbon {
+	border-top: 7px solid #4aaaa5; /*Teal color*/
+}
+.contact {
+	
+	border-top: 7px solid #4aaaa5; /*Teal color*/
+    clear: left;
+    border-top: 7px solid #4aaaa5;
+}
+
+/*************************************************************
+                MEDIA QUERIES
+***************************************************************/
+@media (max-width: 980px) { 
+
+    
+ }
+
+@media (max-width: 768px) {
+ h1{
+    font-size: 5em;
+}
+}
+
+@media (max-width: 640px) {
+ h1{
+    font-size: 2em;
+}
+}
+
+
+
+
