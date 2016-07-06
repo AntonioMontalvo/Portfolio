@@ -455,7 +455,7 @@ p {
     line-height: 25px;
 } 
 .main-nav {
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-name: slidein;
 }
 
@@ -588,17 +588,64 @@ h4 {
 .push{
     margin-left: 35px;
 }
-.my-text-port {
+.my-text-port, .my-text-contact {
+    max-width: 740px;
     margin-left: 15px;
+    width: 740px;
+    height: 1111px;
 }
+.my-text-contact {
+    height: 545px;
+    }
 .banner{
     max-width: 46%;
     margin: inherit;
 }
-.connect {
+.connect, .connect-port {
     width: 740px;
     position: static;
-    margin: 0px 0 20px 15px;
+    margin: 30px 0 30px 15px;
+    text-align:  left;
+}
+#text {
+    top: 240px;
+}
+#image2 {
+    left: 335px;
+    top: -35px;
+}
+#text2 {
+    left: 335px;
+    top: 200px;
+}
+#image3 {
+    left: 0;
+    top: 300px;
+}
+#text3 {
+    left: 0;
+    top: 535px;
+}
+#image4 {
+    left: 335px;
+    top: 295px;
+}
+#text4 {
+    left: 335px;
+    top: 535px;
+}
+#image5 {
+    top: 630px;
+}
+#text5 {
+    top: 850px;
+}
+form {
+    width: 700px;
+    margin: initial;
+}
+fieldset {
+    width: 109%;
 }
 
 
