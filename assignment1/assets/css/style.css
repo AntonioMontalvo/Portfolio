@@ -560,8 +560,11 @@ h4 {
 }
 }
 
+
+
 @media (max-width: 768px) {
 
+/******index.html******/
 .name {
     margin-left: 20px;
     margin-right: 250px;
@@ -607,6 +610,8 @@ h4 {
     margin: 30px 0 30px 15px;
     text-align:  left;
 }
+
+/******portfolio.html******/
 #text {
     top: 240px;
 }
@@ -640,6 +645,8 @@ h4 {
 #text5 {
     top: 850px;
 }
+
+/******contact.html******/
 form {
     width: 700px;
     margin: initial;
@@ -647,15 +654,48 @@ form {
 fieldset {
     width: 109%;
 }
-
-
-
-
 }
+
+
 
 @media (max-width: 640px) {
  
+ /******index.html******/
+ ul {
+    margin-bottom: -30px;
+ }
+a {
+    padding-right: 70px;
+    padding-left: 25px;
 }
+.name {
+    width: 640px;
+    margin-left: 0px;
+    text-align: center;
+}
+.links {
+    margin: 15px 0 15px 60px;
+}
+.my-text {
+    max-width: 603px;
+}
+.connect-about {
+    width: 603px;
+}
+.profile {
+    max-width: 550px;
+    margin-bottom: 15px;
+}
+.main-content {
+    min-height: 1042px;
+}
+}
+
+
+
+
+
+
 
 
 
