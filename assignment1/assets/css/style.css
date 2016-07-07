@@ -676,11 +676,18 @@ a {
 .links {
     margin: 15px 0 15px 60px;
 }
-.my-text {
+.my-text,
+.my-text-port {
     max-width: 603px;
+}
+.my-text-port {
+    height: 2850px;
 }
 .connect-about {
     width: 603px;
+}
+.connect-about a {
+    padding-left: 0px;
 }
 .profile {
     max-width: 550px;
@@ -689,6 +696,73 @@ a {
 .main-content {
     min-height: 1042px;
 }
+
+/******portfolio.html******/
+.connect{
+    width: 603px;
+}
+.connect a {
+    padding-left: 0px;
+}
+#text{
+    top: 415px;
+}
+
+#image2{
+    left: 0px;
+    top: 1090px;
+}
+#text2 {
+    left: 0px;
+    top: 1525px;
+}
+#image3 {
+    left: 0;
+    top: 530px;
+}
+#text3 {
+    left: 0;
+    top: 955px;
+}
+#image4 {
+    left: 0px;
+    top: 1640px;
+}#text4{
+    left: 0px;
+    top: 2075px;
+}
+#image5 {
+    top: 2190px;
+}
+#text5 {
+    top: 2585px;
+}
+#text, #text2, #text3, #text4, #text5{
+    padding: 20px;
+}
+.banner {
+    max-width: 100%;
+}
+
+/******contact.html******/
+fieldset {
+    width: 88%;
+}
+.my-text-contact {
+    max-width: 603px;
+
+}
+.connect-port{
+    width: 603px;
+}
+.connect-port a {
+    padding-left: 0px;
+}
+
+
+
+
+
 }
 
 
